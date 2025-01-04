@@ -1,7 +1,7 @@
 name: Update Trailhead Stats
 on:
   schedule:
-    - cron: '0 * * * *' # Runs hourly
+    - cron: '0 0 * * *' # Runs Daily
   push:
     branches:
       - main # Runs on push to the main branch
@@ -17,7 +17,5 @@ jobs:
         with:
           trailhead-username: 'https://www.salesforce.com/trailblazer/jross'
           display-type: 'card'
-          show-certification: 'detail'
           dark-style: 'dark'
-          show-superbadge: 'hidden'
           
