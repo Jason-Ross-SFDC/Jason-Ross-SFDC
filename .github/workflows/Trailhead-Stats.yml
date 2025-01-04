@@ -15,3 +15,5 @@ jobs:
           trailhead-username: 'https://www.salesforce.com/trailblazer/jross'
           display-type: 'card'
           show-certification: 'detail'
+          dark-style: 'dark'
+          
