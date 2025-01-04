@@ -2,6 +2,9 @@ name: Update Trailhead Stats
 on:
   schedule:
     - cron: '0 * * * *' # Runs hourly
+  push:
+    branches:
+      - main # Runs on push to the main branch
 jobs:
   update-stats:
     runs-on: ubuntu-latest
