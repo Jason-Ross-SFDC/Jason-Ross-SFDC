@@ -19,4 +19,5 @@ jobs:
           display-type: 'card'
           show-certification: 'detail'
           dark-style: 'dark'
+          show-superbadge: 'hidden'
           
