@@ -18,4 +18,8 @@ jobs:
           trailhead-username: 'jross'
           display-type: 'card'
           dark-style: 'dark'
+          show-stamp: 'hidden'	
+          show-event-badge: 'hidden'
+          show-stamp-latest: 'hidden'
+          show-event-badge-latest: 'hidden'
           
